@@ -16,4 +16,6 @@ function fibonacci(n){
 }
 
 
-fibonacci(10);
+fibonacci(100);
+
+// this problem was to get upto speed with array, loops etc by solving an easy problem.
