@@ -1,0 +1,11 @@
+.btn{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
+.invisible{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
