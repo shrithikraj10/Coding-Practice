@@ -6,8 +6,8 @@ function Bellboy (name, age, work){
 // this is an example of a constructor function.
 
 
-var Bellboy1 = new Bellboy("sahil", "24", "trashtalker");
-var Bellboy2 = new Bellboy("Ronak", "24", "Racist");
+var Bellboy1 = new Bellboy("sahil", "24", "SDE");
+var Bellboy2 = new Bellboy("Ronak", "24", "Racer");
 
 
 console.log(Bellboy1, Bellboy2);
