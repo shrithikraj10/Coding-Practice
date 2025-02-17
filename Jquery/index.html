@@ -1,17 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"></link>
-    <title>Document</title>
+    <title>Book Haven</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class="Darkmode">
-    <h1>this is a practice webpage</h1>
-    <div>
-        <h2 onclick = "thishappens()">This is purely for Jquery practice</h2>
-        <button class="buttonStyle">click me</button>
-    </div>
+<body class="DarkMode">
+    <header>
+        <div class="logo">📖 Book Haven</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Genres</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button>Theme</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Escape into the World of Books</h1>
+            <p>Discover new worlds, one page at a time.</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <section class="books">
+        <h2>Featured Books</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="https://source.unsplash.com/200x300/?book" alt="Book Cover">
+                <h3>The Silent Library</h3>
+                <p>A thrilling mystery unfolds...</p>
+            </div>
+            <div class="book">
+                <img src="https://source.unsplash.com/200x300/?reading" alt="Book Cover">
+                <h3>Whispering Pages</h3>
+                <p>Lost in words, found in stories.</p>
+            </div>
+            <div class="book">
+                <img src="https://source.unsplash.com/200x300/?novel" alt="Book Cover">
+                <h3>Ink & Imagination</h3>
+                <p>Where creativity meets paper.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Book Haven | Designed with ❤️ for book lovers</p>
+    </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="index.js"></script>
 </html>
