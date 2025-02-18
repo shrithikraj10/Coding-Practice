@@ -7,3 +7,8 @@ $("button").click(function(){
     $("body").toggleClass('DarkMode');
 
 })
+$("button").click(function(){
+     
+    $("body").toggleClass('DarkMode');
+
+})ß
