@@ -11,4 +11,9 @@ $("button").click(function(){
      
     $("body").toggleClass('DarkMode');
 
-})ß
+})
+$("button").click(function(){
+     
+    $("body").toggleClass('DarkMode');
+
+})
