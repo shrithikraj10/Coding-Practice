@@ -25,7 +25,7 @@ function keyboard(){
 
 function music(instrument){
     switch(instrument){
-        case "w":
+        case "W":
            player("sounds/crash.mp3");
        case "a":
            player("sounds/kick-bass.mp3");s
